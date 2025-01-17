@@ -12,8 +12,6 @@ const client = new Client({
 });
 
 
-
-
 client.login(process.env.DISCORD_BOT_TOKEN)
   .then(() => console.log('Bot is logged in!'))
   .catch(console.error)
